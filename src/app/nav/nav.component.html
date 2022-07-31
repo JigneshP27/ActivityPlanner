@@ -1,1 +1,69 @@
-<p>nav works!</p>
+ <!--Title-->
+<title>Activity Planner</title>
+
+<!--  navbar -->
+<div class="container-f " id="navbar" >
+  <nav class="navbar text-dark" style="border-top-left-radius:12% ;">  
+     <ul class="nav  d-inline-block min-vh-100 " >
+
+       <!--USer login porson-->
+       <li class="nav-item">
+       <h2> 
+          <i class="fa fa-user fa-1x mx-2"></i>
+          <span class="ms-1 d-none d-sm-inline">User</span>
+        </h2>
+       </li><br>
+
+      <!--task button-->
+       <li class="nav-item">
+       <button type="button" class="btn btn-primary">
+        <span class="ms-1 d-none d-sm-inline">Create a Task </span> 
+          <i class="fa fa-plus" aria-hidden="true"></i></button>
+       </li>
+
+       <!--Calander-->
+       <li class="nav-item">
+         <hr>
+            <h4> 
+             <span class="ms-1 d-none d-sm-inline ">Calander</span>
+             <i class="fa fa-plus mx-2" aria-hidden="true"></i>
+             </h4>
+          <hr>
+        </li>
+
+        <!--Dropdown shorcuted-->
+        <li>
+          <div ngbDropdown class="dropdown">
+            <h4><span class="ms-1 d-none d-sm-inline"> Shortcuts</span>
+              <i ngbDropdownToggle class="fa fa-angle-down mx-2" aria-hidden="true" data-bs-toggle="dropdown" id="shortcut"></i>
+                <div ngbDropdownMenu class="dropdown-menu">
+                  <th>Shortcuts</th>
+                   <a ngbDropdownItem class="dropdown-item"  href="#">Today</a>
+                   <a ngbDropdownItem class="dropdown-item" href="#">Tomorrow</a>
+                   <a ngbDropdownItem class="dropdown-item" href="#">Next Day</a>
+                </div>
+            </h4>
+          </div>
+          <hr>
+        </li>
+
+        <!--Dropdown lists-->
+        <li>
+          <div ngbDropdown class="dropdown"> 
+            <h4><span class="ms-1 d-none d-sm-inline">Lists</span> 
+                <i  ngbDropdownToggle class="fa fa-angle-down mx-2" aria-hidden="true" data-bs-toggle="dropdown"></i>
+                <div ngbDropdownMenu class="dropdown-menu">
+                   <th>Lists</th>
+                   <a ngbDropdownItem class="dropdown-item " href="#">Personal</a>
+                   <a ngbDropdownItem class="dropdown-item" href="#">Work</a>
+                   <a ngbDropdownItem class="dropdown-item" href="#">Grocery List</a>
+                </div>
+            </h4>
+          </div>
+         </li>
+    </ul>   
+  </nav>
+<!--------------------------------may end--------------------------------------------->
+</div>
+
+

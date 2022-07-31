@@ -1,0 +1,13 @@
+#droplist{
+    color: black;   
+}
+.dropdown-toggle::after {
+    display:none;
+}
+#navbar{
+    float: left;
+   
+}
+.navbar{
+background-color: rgba(245, 245, 245, 0.493);
+}
