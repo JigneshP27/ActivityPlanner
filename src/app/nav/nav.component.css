@@ -1,13 +1,4 @@
-#droplist{
-    color: black;   
+a:hover{
+    font-size: 110%;
 }
-.dropdown-toggle::after {
-    display:none;
-}
-#navbar{
-    float: left;
-   
-}
-.navbar{
-background-color: rgba(245, 245, 245, 0.493);
-}
+

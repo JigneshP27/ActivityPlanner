@@ -1,5 +1,18 @@
-#right{
-    background-image: url("https://media.yogems.com/453200d0-eb99-11ea-8305-a3756d50fd9b.jpg");
-    height: 100vh;
+.navbar{
+    background-color: rgb(255, 255, 255);
+    float: left;
     
-}
+    
+    } 
+#head{
+        font-weight: bold;
+        font-size: small;
+        color: rgb(160, 158, 156);
+    }
+
+#bgimg{
+    background-image: url("https://img.freepik.com/free-vector/simple-gradient-background-vector-winter-blue-pink_53876-105768.jpg?w=2000");
+    height: 100vh;
+    background-repeat: no-repeat;
+}    
+    
