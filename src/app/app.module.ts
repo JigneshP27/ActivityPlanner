@@ -6,17 +6,19 @@ import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { RightsideComponent } from './rightside/rightside.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LeftsideComponent } from './leftside/leftside.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    RightsideComponent
+    RightsideComponent,
+    LeftsideComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

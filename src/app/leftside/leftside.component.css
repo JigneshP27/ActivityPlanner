@@ -1,0 +1,37 @@
+.navbar{
+    
+    padding-right: 6%;
+    float: left;
+    
+    } 
+#head{
+        font-weight: bold;
+        font-size:75%;
+        color: rgb(160, 158, 156);
+        padding-left: 5%;
+        
+    }
+
+
+#text{
+    
+    padding-left: 20%;
+    margin-right:-60%;  
+}
+
+#dd:hover{
+    color: blue;
+        
+}
+#dd{
+    padding-left: 8%;
+    margin-left: 8%;
+    margin-right: -40%;
+    font-weight: 350;
+    font-size: small;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sidebar{
+    position: fixed;
+    background-color: rgb(243, 241, 241);
+}
