@@ -24,12 +24,14 @@
         
 }
 #dd{
+    padding-top: 3%;
     padding-left: 8%;
     margin-left: 8%;
     margin-right: -40%;
     font-weight: 350;
     font-size: small;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 #sidebar{
     position: fixed;
